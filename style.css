@@ -1,0 +1,55 @@
+h1 {
+    text-align: center;
+  }
+  
+  .calc-body {
+    border: 1px solid black;
+    border-radius: 5px 5px 0 0;
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 15px;
+    align-items: center;
+    background-color: #073074;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    
+  }
+  
+  .row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+  }
+  
+  .num, .operator {
+    width: 20%;
+  }
+  
+  #clear, #equals {
+    width: 47%;
+  }
+  
+  #output {
+    width: 97%;
+    height: 60px;
+    border: 1px solid black;
+    background-image: linear-gradient(to top right,#7D7E7F ,#EBEDEF);
+    justify-content: right;
+    font-size: 40px;
+  }
+  
+  button {
+    height: 60px;
+    background-color: #FFF;
+    border-radius: 15px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 15px;
+  }
+  
+  button:hover {
+    background-color: #000;
+    color: #FFF;
+  }
